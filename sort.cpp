@@ -58,8 +58,9 @@ void InsertionSort(double *array, size_t n) {
     for (size_t i = 0; i < n - 1; ++i) {
         size_t k = i;
         for (size_t j = i + 1; j < n; ++j) {
-            if (array[j] < array[k])
+            if (array[j] < array[k]) {
                 k = j;
+            }
         }
         std::swap(array[i], array[k]);
     }
