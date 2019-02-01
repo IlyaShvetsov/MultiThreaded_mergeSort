@@ -1,1 +1,1 @@
-# multiThreaded_mergeSort
+# MultiThreaded mergeSort
